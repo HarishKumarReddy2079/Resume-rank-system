@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Parser App</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div class="container-fluid">
+        <nav class="navbar bg-primary">
+            <a class="navbar-brand">Resume Application</a>
+            <div class="spacer"></div>
+            <a href="#"></a><button type="button" class="btn btn-primary">Home</button></a>
+            <a href="./candidates"><button type="button" class="btn btn-primary">Candidates</button></a>
+            <a href="./jobs"><button type="button" class="btn btn-primary">Jobs</button></a>
+            <a href="./resume_checker"><button type="button" class="btn btn-primary">Resume Checker</button></a>           
+        </nav>
+    </div>
+
+    {% block content %}{% endblock %}
+</body>
+
+</html>

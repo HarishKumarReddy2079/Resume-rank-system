@@ -1,0 +1,15 @@
+.bg{
+    background-color: rgb(220, 156, 27);
+}
+
+.spacer{
+    flex: 1 1 auto;
+}
+
+.remove {
+    text-decoration: none !important;
+}
+
+button {
+    margin: 5px;
+}
